@@ -10,15 +10,15 @@ let app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.post('/user', (req,res) => {    
+app.post('/registerUser', (req,res) => {    
     console.log('POST')
     const { body } = req
     const user = JSON.stringify(body)
     db.addUser(user)
-    res.send(200)
+    res.sendStatus(200)
 })
 
-app.get('/user', (req,res) => {
+app.post('/searchUser', (req,res) => {
     console.log('GET')
     var user = db.searchUser(req.body.id, res)
     res.send(user)
