@@ -1,6 +1,8 @@
 #Filestore
 users.txt
 
+.DS_Store
+
 # Logs
 logs
 *.log
