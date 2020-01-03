@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.post('/registerUser', (req,res) => {    
     const { body } = req
     const user = JSON.stringify(body)
+    console.log(body)
     db.addUser(user)
     res.sendStatus(200)
 })
