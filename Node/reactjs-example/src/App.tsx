@@ -51,7 +51,7 @@ class RegisterUser extends React.Component {
     console.log(usuario)
       axios({
         method: 'post',
-        url: 'http://192.168.1.70:4000/registerUser/',
+        url: 'http://localhost:4000/registerUser/',
         data: qs.stringify(usuario),
         headers: 
         {'Content-Type': 'application/x-www-form-urlencoded'}
@@ -93,7 +93,7 @@ const UserPage = ({ match}) => {
   
   axios({
     method: 'post',
-    url: 'http://192.168.1.70:4000/searchUser/'+userId,
+    url: 'http://localhost:4000/searchUser/'+userId,
   }).then(res => {
     setName(res.data.nombre);
     setAge(res.data.edad);
