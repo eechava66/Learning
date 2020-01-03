@@ -1,2 +1,5 @@
 # NodeLearning
 Repository with node workshops. 
+
+# Command to open Google withouts CORS
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
