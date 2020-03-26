@@ -1,3 +1,4 @@
+'use strict'
 //This will lock the eventloop since it's an infite task
 while(true);
     //do nothing
@@ -8,4 +9,4 @@ function loop(){
     setTimeout(loop,0);
     //do nothing
 }
-loop;
+loop();
