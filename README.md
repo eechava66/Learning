@@ -6,9 +6,13 @@ Repository with some workshops and examples.
 ## Nodejs
 
 * API using express and file system for persistence. 
+* Some Eventloop examples and notes
+* Some asynchronous examples
 
 ## React
 
 * FrontEnd for Nodejs API using react components. 
 
 ## Jenkins
+
+* Testing sample pipelines. 
