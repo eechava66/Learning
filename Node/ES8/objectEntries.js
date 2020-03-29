@@ -10,3 +10,4 @@ const data = {
 const entries = Object.entries(data);
 console.log(entries)
 console.log(entries.length)
+console.log(Object.values(data))
