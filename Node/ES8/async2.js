@@ -6,9 +6,19 @@ const helloWorld = () =>{
    });
 }
 
-const helloAsync = async () =>{
+const helloAsync = async () => {
     const hello = await helloWorld();
     console.log(hello);
 }
 
 helloAsync();
+
+const anotherFunction = async() => {
+    try{
+        const hello = await helloWorld();
+        console.log(hello);
+    }catch(err){
+        console.log(err);
+    }
+}
+anotherFunction()
