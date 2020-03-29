@@ -1,3 +1,4 @@
+//Expression function (Asign a function to a const, usually is used to create functions after conditions)
 const helloPromise =  () => {
     return new Promise((resolve,reject) =>{
         if(false)
