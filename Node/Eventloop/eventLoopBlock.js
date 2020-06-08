@@ -6,7 +6,7 @@ while(true);
 
 //This won't lock the eventloop since it's adding more tasks to the queue
 function loop(){
-    setTimeout(loop,0);
+    setTimeout(loop,1000);
     //do nothing
 }
 loop();
