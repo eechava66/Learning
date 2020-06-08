@@ -16,3 +16,6 @@ Repository with some workshops and examples.
 ## Jenkins
 
 * Testing sample pipelines. 
+
+## Logic
+* Exercises with data structures and general logic problems. 
